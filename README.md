@@ -1,4 +1,4 @@
-# shellScripts
+# About the script
 This shell script does the following
 1.Accepts the following runtime arguments: the first argument is a path to a directory on the filesystem, referred to below as filesdir; the second argument is a text string which will be searched within these files, referred to below as searchstr
 
