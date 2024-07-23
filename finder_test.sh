@@ -18,7 +18,7 @@ done
 searchstr=$writestr
 outputstr=$(./finder.sh $dir_name $searchstr)
 # remove temporary directories
-rm -rf /tmp/aeld-data
+rm -rf ${dir_name}
 
 echo ${outputstr} | grep "${searchstr}"
 if [ $? -eq 0 ]; then
