@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ $# -le 3 ]
+if [ $# -le 2 ]
 then
 	numfiles=10
 	writestr="AELD_IS_FUN"
